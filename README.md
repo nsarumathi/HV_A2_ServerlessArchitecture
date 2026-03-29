@@ -1,11 +1,20 @@
 Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 ------------------------------------------------------------------------------------
-   ** Objective:** Automatically manage EC2 instances (start/stop) based on tags.
-   ** Key Steps:**
+    Objective:Automatically manage EC2 instances (start/stop) based on tags.
+    Key Steps:
+    ~~~~~~~~~~~
         Launch two EC2 instances (Auto-Stop and Auto-Start tags).
+  <img width="1918" height="822" alt="Assg1_EC1" src="https://github.com/user-attachments/assets/677427a6-e183-4732-86f5-b3ada4df23cd" />
+  <img width="1918" height="822" alt="Assg1_EC2" src="https://github.com/user-attachments/assets/d9bf6c0c-5403-44df-8d9d-cf25e6043552" />
         Create a Lambda function with AmazonEC2FullAccess Role.
+  <img width="1918" height="800" alt="Assgn1_Role" src="https://github.com/user-attachments/assets/d78ffc5a-433d-48db-b92b-3877058c855b" />
+
         Use Boto3 to detect tagged instances and start/stop them.
+  <img width="1918" height="866" alt="Assgn1_TestRun" src="https://github.com/user-attachments/assets/adee6653-a824-4c64-8b6d-f8e691b3d18b" />
+
         Manually invoke Lambda and verify instance states.
+  <img width="1918" height="802" alt="Assg1_EC2AfterRun" src="https://github.com/user-attachments/assets/0e0f0778-0ded-4dfd-951b-a5cef4fbe8d7" />
+
         
 Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
 --------------------------------------------------------------------------------------
